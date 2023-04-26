@@ -32,10 +32,13 @@ textarea {
 	vertical-align: top;
 }
 input[type="submit"], button {
-	color: #fff;
-	background-color: #29c5e6;
+	color: black;
+	margin: 0 auto;
+    display: block;
+	background-color: #f3f3f3;
 	border: none;
 	height: 32px;
+	width: 100px;
 	font-family: 'Oswald', sans-serif;
 }
 p {
@@ -52,7 +55,7 @@ header {
 }
 
 main {
-	background:#f3f3f3;
+	background:#7e7e7e;
 }
 main form {
 	background-color:#ffffff;
@@ -270,5 +273,17 @@ table tbody td {
 }
 
 table tbody tr {
-	background-color: #f9fafb;
+	background-color: #8BF13C;
+}
+
+
+div.forform {
+    background-color: #f3f3f3;
+    width: 30%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+label {
+    margin: auto;
 }
